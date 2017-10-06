@@ -1,18 +1,14 @@
 # Git
 
-An overview of Git. What it is. How they can use it. How they will submit assignments using GitHub and Git.
-
-# Intro #
-
-Git is a version control sustem for tracking changes in files, and being able to collaborate with others to work on the same files together.
-- Description
-- Overview of what will be taught
-
+Git is a version control system for tracking changes in files, and being able to collaborate with others to work on the same files together. This lesson will teach students how to use Git and how it is used in order to collaborate with others. It is critical in a work environment to be competent with Git. It is the primary mode in which you will submit and recieve code to craft into mobile applications.
 
 # Learing Outcomes #
 
 Bulleted list of things the student can expect to learn from the lesson
-
+- Be able to create a new repository and commit to it.
+- Be able to clone a repository and contribute to it
+- Be able to use XCode as a GUI for their repositories.
+- Be able to successfully work with a partner to work on a project.
 
 # Vocabulary #
 
@@ -35,7 +31,11 @@ Bulleted list of things the student can expect to learn from the lesson
 
 # Additional Resources #
 
-Any helpful articles, documentation etc...
+[Github's Guide to Create a new repository](https://guides.github.com/activities/hello-world/)
+
+[WWDC - Github and the New Source Controler Workflows in XCode](https://developer.apple.com/videos/play/wwdc2017/405/)
+
+[Atlassian Gudie on Git](https://www.atlassian.com/git/tutorials/what-is-git)
 
 # Lesson #
 
