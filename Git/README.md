@@ -37,14 +37,31 @@ Bulleted list of things the student can expect to learn from the lesson
 
 [Atlassian Gudie on Git](https://www.atlassian.com/git/tutorials/what-is-git)
 
+[Github Student Developer Pack](https://education.github.com/pack)
+
 # Lesson #
 
 ## Repositories ##
 
-- What is a repository?
-- How do I create new Repos?
-- How do repos interact with XCode?
-- Clone Vs. Fork
+A repository is the home for your code. Changes that you make in code will be reflected in your repository for that code. All folders and files in your projects can be stored in a repository. There are many services online that you can utilitize to save your repositories. For this class, and for many people in the iOS community Github will be our service that we use. So, how do we start with a repository on GitHub? All you need to start is a name, but you also will have many options to include which we will cover.
+
+ ![GitHub Create Repo](resources/CreateRepo.png)
+
+Typically you keep the repository name to be the same as your project. So for a Journal App your repository could be Journal, or the name of your app.
+
+You get the option to make the repository public or private. With a free account you will only be able to create a public repositories. A public repository means that anyone on the internet would be able to open and look at your code. A private repository only lets you and your collaborators access the repository. Students can qualify for Github for free! Check out the Student Developer Pack in Additional Resources.
+
+In addition your repository can include a README. When possible you should create a README for all of your repositories. Consider this as an introduction to what your repository is all about. Take a look at how we use README's in this Repository.
+
+The last two options you get are to add a .gitignore and a license. The Git Ignore is way to hide files in your repository. A good example is .DS_Store. That type of file type is a nuisance as it is created whenever you create new files and folders. Adding .DS_Store to your .gitignore is common practice. Licenses are there to protect you. For example, if you had a code base that other people are using. You will want to be acknowleged for your work and so a Apache License will require anyone using your code to provide attibution to you.
+
+Apple has recently made a push to incorporate XCode with Github. You will find many helpful tools along the way that integrate XCode with Github. One instance would be if you are on a repository on Github and want to see the project in XCode there is a Open in Xcode button.
+
+![Github- Open in XCode](resources/OpenInXCode.png)
+
+There are millions of repositories on GitHub. The public repositories you can access and learn from. If you just want to open the project then you can download the ZIP or Open in Xcode as you can see from above. However, you have other options depending on what you want to do.
+
+Your first option would be to Clone. Cloning a Repository gives you a copy of the code that is in the repository. Another option is to Fork. When you fork a Repository then you create a new repository that is identical to the original, but it is now on your Github account. Remember if you ever decide to use code from other people they probably have a license so you will need to attribute them in your project.
 
 ## Commits and Branches ##
 
