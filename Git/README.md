@@ -39,6 +39,8 @@ Bulleted list of things the student can expect to learn from the lesson
 
 [Github Student Developer Pack](https://education.github.com/pack)
 
+[Git vs. Github](https://www.codefellows.org/blog/git-and-github-what-s-the-difference/)
+
 # Lesson #
 
 ## Repositories ##
@@ -65,7 +67,22 @@ Your first option would be to Clone. Cloning a Repository gives you a copy of th
 
 ## Commits and Branches ##
 
-- What is a commit? How do you do it? (XCode)
+A commit is the bread and butter of Git. Think of committing as saving your code. These saves can be references and you can see the progress of the code.
+
+In order to create a commit you need two things. A change in a file and a commit message.
+
+First thing is you need to change a file. Working on a project you are constantly changing code and writing new code. Anytime a file is created of adjusted it is added into an Unstages Change. When you are ready to commit you can move the files from Unstaged to Staged. When a file is in Staged Changes it is ready to be commited to the repository.
+
+The second thing you need is a commit message. These messages should be descriptive of what is reflected in the staged changes files. For example if you just made a change in your project to fix a bug. Your commit message could say something like
+"Keyboard bug fixed"
+
+You know what files you are ready to commit and you have a message so how do you do it? Conveniently Xcode has this built in for you.
+
+![Commit](resources/Commit.png)
+
+By going to Source Control -> Commit this will open up a new window. In this window you will see your changed files and the ability to add a message. Make sure the right files are checked, write your message and press commit.
+
+By default you are given a branch called Master. Branches are a great resource for you to organize your code and to more easily collaborate with others on your project.
 - What is a branch?
 - What makes using branches beneficial
 
