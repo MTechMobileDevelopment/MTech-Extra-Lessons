@@ -82,9 +82,13 @@ You know what files you are ready to commit and you have a message so how do you
 
 By going to Source Control -> Commit this will open up a new window. In this window you will see your changed files and the ability to add a message. Make sure the right files are checked, write your message and press commit.
 
-By default you are given a branch called Master. Branches are a great resource for you to organize your code and to more easily collaborate with others on your project.
-- What is a branch?
-- What makes using branches beneficial
+By default you are given a branch called "master". Branches are a great resource for you to organize your code and to more easily collaborate with others on your project. Branches are essentially a place to hold commits. A good seperation of commits are with features. You can start a new branch when you start working on a new feature. To create a branch go to the source control navigator in XCode. Right click on the master branch and select Branch from "master" option. You can create a branch from any other branch.
+
+![Create Branch](resources/CreateBranch.png)
+
+It is good practice to have multiple branches. For an app that is on the App Store it is common to have the master branch have the code that is in development. A develop branch is commonly created to seperate what you are working on with what is in production. This enables developers to work in an environment where they do not need to worry about breaking code that is in production. Once code is tested on the develop branch it is merged into the master branch and put into production.
+
+Another benefit to having branches is for collaboration. Later in the lesson you will learn about merge conflicts. When you and another person are working on the same project, you don't want to be changing the same lines of code. To do this it is best to create seperate branches to work on.
 
 ## Pull, Push, Fetch ##
 
