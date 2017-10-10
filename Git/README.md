@@ -41,6 +41,8 @@ Bulleted list of things the student can expect to learn from the lesson
 
 [Git vs. Github](https://www.codefellows.org/blog/git-and-github-what-s-the-difference/)
 
+[Git Source Control with XCode 9](https://www.raywenderlich.com/153084/use-git-source-control-xcode-9)
+
 # Lesson #
 
 ## Repositories ##
@@ -78,13 +80,13 @@ The second thing you need is a commit message. These messages should be descript
 
 You know what files you are ready to commit and you have a message so how do you do it? Conveniently Xcode has this built in for you.
 
-![Commit](resources/Commit.png)
+![Commit](https://github.com/MTechMobileDevelopment/MTech-Extra-Lessons/blob/GitLesson/Git/Resources/Commit.png)
 
 By going to Source Control -> Commit this will open up a new window. In this window you will see your changed files and the ability to add a message. Make sure the right files are checked, write your message and press commit.
 
 By default you are given a branch called "master". Branches are a great resource for you to organize your code and to more easily collaborate with others on your project. Branches are essentially a place to hold commits. A good seperation of commits are with features. You can start a new branch when you start working on a new feature. To create a branch go to the source control navigator in XCode. Right click on the master branch and select Branch from "master" option. You can create a branch from any other branch.
 
-![Create Branch](resources/CreateBranch.png)
+![Create Branch](Resources/CreateBranch.png)
 
 It is good practice to have multiple branches. For an app that is on the App Store it is common to have the master branch have the code that is in development. A develop branch is commonly created to seperate what you are working on with what is in production. This enables developers to work in an environment where they do not need to worry about breaking code that is in production. Once code is tested on the develop branch it is merged into the master branch and put into production.
 
