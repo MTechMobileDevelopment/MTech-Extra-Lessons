@@ -49,7 +49,7 @@ Bulleted list of things the student can expect to learn from the lesson
 
 A repository is the home for your code. Changes that you make in code will be reflected in your repository for that code. All folders and files in your projects can be stored in a repository. There are many services online that you can utilitize to save your repositories. For this class, and for many people in the iOS community Github will be our service that we use. So, how do we start with a repository on GitHub? All you need to start is a name, but you also will have many options to include which we will cover.
 
- ![GitHub Create Repo](resources/CreateRepo.png)
+ ![GitHub Create Repo](https://github.com/MTechMobileDevelopment/MTech-Extra-Lessons/blob/GitLesson/Git/Resources/CreateRepo.png)
 
 Typically you keep the repository name to be the same as your project. So for a Journal App your repository could be Journal, or the name of your app.
 
@@ -61,7 +61,7 @@ The last two options you get are to add a .gitignore and a license. The Git Igno
 
 Apple has recently made a push to incorporate XCode with Github. You will find many helpful tools along the way that integrate XCode with Github. One instance would be if you are on a repository on Github and want to see the project in XCode there is a Open in Xcode button.
 
-![Github- Open in XCode](resources/OpenInXCode.png)
+![Github- Open in XCode](https://github.com/MTechMobileDevelopment/MTech-Extra-Lessons/blob/GitLesson/Git/Resources/OpenInXCode.png)
 
 There are millions of repositories on GitHub. The public repositories you can access and learn from. If you just want to open the project then you can download the ZIP or Open in Xcode as you can see from above. However, you have other options depending on what you want to do.
 
@@ -73,7 +73,7 @@ A commit is the bread and butter of Git. Think of committing as saving your code
 
 In order to create a commit you need two things. A change in a file and a commit message.
 
-First thing is you need to change a file. Working on a project you are constantly changing code and writing new code. Anytime a file is created of adjusted it is added into an Unstages Change. When you are ready to commit you can move the files from Unstaged to Staged. When a file is in Staged Changes it is ready to be commited to the repository.
+First thing is you need to change a file. Working on a project you are constantly changing code and writing new code. Anytime a file is created or adjusted it is added into an Unstages Change. When you are ready to commit you can move the files from Unstaged to Staged. When a file is in Staged Changes it is ready to be commited to the repository.
 
 The second thing you need is a commit message. These messages should be descriptive of what is reflected in the staged changes files. For example if you just made a change in your project to fix a bug. Your commit message could say something like
 "Keyboard bug fixed"
@@ -86,7 +86,7 @@ By going to Source Control -> Commit this will open up a new window. In this win
 
 By default you are given a branch called "master". Branches are a great resource for you to organize your code and to more easily collaborate with others on your project. Branches are essentially a place to hold commits. A good seperation of commits are with features. You can start a new branch when you start working on a new feature. To create a branch go to the source control navigator in XCode. Right click on the master branch and select Branch from "master" option. You can create a branch from any other branch.
 
-![Create Branch](Resources/CreateBranch.png)
+![Create Branch](https://github.com/MTechMobileDevelopment/MTech-Extra-Lessons/blob/GitLesson/Git/Resources/CreateBranch.png)
 
 It is good practice to have multiple branches. For an app that is on the App Store it is common to have the master branch have the code that is in development. A develop branch is commonly created to seperate what you are working on with what is in production. This enables developers to work in an environment where they do not need to worry about breaking code that is in production. Once code is tested on the develop branch it is merged into the master branch and put into production.
 
