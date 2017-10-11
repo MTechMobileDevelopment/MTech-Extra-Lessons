@@ -71,11 +71,11 @@ First thing you need to do is to get your Github account linked up to XCode. If 
 
 Now that XCode knows about your GitHub account we can link your created repo on Github to the XCode project. Open XCode and go to the source control tab for your project.
 
-![Source Control Tab](resources/SourceControlTab.png)
+![Source Control Tab](https://github.com/MTechMobileDevelopment/MTech-Extra-Lessons/blob/GitLesson/Git/Resources/SourceControlTab.png)
 
 Right click on your the folder with your project name on it. Mid way down in your options you should see:
 
-![AddRemoteRepo](resources/AddRemoteRepo.png)
+![AddRemoteRepo](https://github.com/MTechMobileDevelopment/MTech-Extra-Lessons/blob/GitLesson/Git/Resources/AddRemoteRepo.png)
 
 Here you have two options. The first option "Create "Project Name" Remote on GitHub..." When you select this option XCode will open a new dialog box for you and you will be able to create a GitHub repository right inside of XCode.
 
