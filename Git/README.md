@@ -142,9 +142,11 @@ __Fetch__ is telling XCode to go look at the repository in GitHub to see if ther
 
 ## Merge Conflicts ##
 
-- What is a merge conflict
-- What tools to use in order to solve the conflicts
-- Power of developing with others.
+A __Merge Conflict__ is when you pull down code that someone else has changed and it interferes with code that you have changes. For example if Bill changed line 24. Jane pulls down Bill's code and Jane had also changed line 24. This results in a Merge Conflict. It is always best to _pull_ before you push. That way any merge conclicts that you may enounter are handled locally.
+
+To solve a _Merge Conflict_ is that you choose what lines of code to choose. Essentially going line by line determining who's code to take. You also have the option to always take Bill's code or always take Jane's.
+
+This becomes a problem is in interface builder. There is no good way to solve a merge conflict that has a problem in interface builder. Avoid working in a storyboard file if someone else is also working in the same file. For this reason use Storyboard References to seperate your storyboards so that different people can work on their own features.
 
 ## Conclusion ##
 
