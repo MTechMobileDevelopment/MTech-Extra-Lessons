@@ -67,6 +67,24 @@ There are millions of repositories on GitHub. The public repositories you can ac
 
 Your first option would be to Clone. Cloning a Repository gives you a copy of the code that is in the repository. Another option is to Fork. When you fork a Repository then you create a new repository that is identical to the original, but it is now on your Github account. Remember if you ever decide to use code from other people they probably have a license so you will need to attribute them in your project.
 
+__Link Project to GitHub__
+
+First thing you need to do is to get your Github account linked up to XCode. If you don't have a Github account _now_ is a good time to do so. In XCode in the top bar go to XCode -> Preferences -> Accounts -> + (In the bottom left) -> Choose GitHub -> Sign in.
+
+Now that XCode knows about your GitHub account we can link your created repo on Github to the XCode project. Open XCode and go to the source control tab for your project.
+
+![Source Control Tab](resources/SourceControlTab.png)
+
+Right click on your the folder with your project name on it. Mid way down in your options you should see:
+
+![AddRemoteRepo](resources/AddRemoteRepo.png)
+
+Here you have two options. The first option "Create "Project Name" Remote on GitHub..." When you select this option XCode will open a new dialog box for you and you will be able to create a GitHub repository right inside of XCode.
+
+The second option is "Add Existing Remote". Use this option when you already have a repo in GitHub. You will need to get the link from your repository. This link is right about the Open in XCode button on Github. When adding the existing remote the Location it is asking for is the link that you get from GitHub.
+
+Nice work, you now have created your repositories. Next you will learn how to save your code to them and how to work effectively with the repositories.
+
 ## Commits and Branches ##
 
 A commit is the bread and butter of Git. Think of committing as saving your code. These saves can be references and you can see the progress of the code.
@@ -84,6 +102,8 @@ You know what files you are ready to commit and you have a message so how do you
 
 By going to Source Control -> Commit this will open up a new window. In this window you will see your changed files and the ability to add a message. Make sure the right files are checked, write your message and press commit.
 
+__Branches__
+
 By default you are given a branch called "master". Branches are a great resource for you to organize your code and to more easily collaborate with others on your project. Branches are essentially a place to hold commits. A good seperation of commits are with features. You can start a new branch when you start working on a new feature. To create a branch go to the source control navigator in XCode. Right click on the master branch and select Branch from "master" option. You can create a branch from any other branch.
 
 ![Create Branch](https://github.com/MTechMobileDevelopment/MTech-Extra-Lessons/blob/GitLesson/Git/Resources/CreateBranch.png)
@@ -92,16 +112,24 @@ It is good practice to have multiple branches. For an app that is on the App Sto
 
 Another benefit to having branches is for collaboration. Later in the lesson you will learn about merge conflicts. When you and another person are working on the same project, you don't want to be changing the same lines of code. To do this it is best to create seperate branches to work on.
 
+## How Git interacts with Github ##
+
+Git and Github are not the same. Although they work hand in hand making each other better.
+
+__Git__
+
+So what is Git? Git is a version control system. It tracks versions of your projects and allows you to revert back to in time. Git allows you to code away and not worry about breaking something. If something goes awry you know that you have a commit that you can go back to at anytime.
+
+__Github__
+
+What is Github? Github is a place for you to store your repositories. Instead of keeping everything local on your machine, Github gives you a place to store your code online. This allows for other people to see your code, or just a save haven for you to feel comfortable knowing your code is safe.
+
 ## Pull, Push, Fetch ##
 
 - What is a pull
 - A push?
 - A Fetch?
 - How often should someone do those things
-
-## How Git interacts with Github ##
-
-- The difference between Git and Github
 
 ## Pull Requests ##
 
