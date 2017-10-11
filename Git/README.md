@@ -150,11 +150,24 @@ This becomes a problem is in interface builder. There is no good way to solve a 
 
 ## Conclusion ##
 
-- Importance of Git. How it can really make you a better developer and save you time.
+Git is crucial for every developer. Committing often and having meaningful commit messages can really aide your development. Rarely will you work on a project by yourself. Being able to utilize Git to work with others will set you apart as a developer. One of the biggest headaches is working through Merge Conflicts and how to get the right code. Being able to master Git is critical for a successful developer career.
 
 # Assignment #
 
-20-30 minute assignment for them to work on during class. Wraps up the lesson and has the student implement what they learned. An assignment that brings in all of the learning outcomes for the lesson.
+You assignment is to work on a project with someone else to see how to create a repository. Then with that repository on both of your machines add new lines of code to see how Git functions.
+
+- Pair up with the student sitting next to you.
+- Create a new project on Student A's computer
+- Add a Repository for that project.
+- Student B then should clone the project and put it on his computer.
+- Each student open up the same file and change the same line of code.
+- On that line of code write a print statement with your favorite Dad Joke.
+- Both students commit their code
+- Student A push their code to the repository
+- Student B pull Student A's code to his computer.
+- Work together to take the line of code that has the funnier Dad Joke
+
+Congratulations you have successfully worked together to solve a problem and in the meantime become more familiar with Git. Every project you work on will add to your experience and make you a better developer.
 
 # Quiz #
 
