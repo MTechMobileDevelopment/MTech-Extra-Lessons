@@ -118,7 +118,7 @@ Git and Github are not the same. Although they work hand in hand making each oth
 
 __Git__
 
-So what is Git? Git is a version control system. It tracks versions of your projects and allows you to revert back to in time. Git allows you to code away and not worry about breaking something. If something goes awry you know that you have a commit that you can go back to at anytime.
+So what is Git? Git is a version control system. It tracks versions of your projects and allows you to revert back in time to a previous commit. Git allows you to code away and not worry about breaking something. If something goes awry you know that you have a commit that you can go back to at anytime.
 
 __Github__
 
@@ -126,10 +126,13 @@ What is Github? Github is a place for you to store your repositories. Instead of
 
 ## Pull, Push, Fetch ##
 
-- What is a pull
-- A push?
-- A Fetch?
-- How often should someone do those things
+These are functions to help you have the right code on your computer. They help you interact with your GitHub Repository.
+
+__Pull__ is taking commits that are on the GitHub Repository and bringing them down onto your computer. For example, if Bill made a new commit and Jane wanted to see that commit she would need to _pull_ down the code to see it on her computer.
+
+__Push__ is taking commits that are on your computer and _pushing_ the commits to the GitHub repository. Until you _push_ your code is only stored on your computer. After a _push_ then your commited code is both on your computer and on a GitHub Repository.
+
+__Fetch__ is telling XCode to go look at the repository in GitHub to see if there are any changes. If there are changes XCode will suggest that you _pull_ down the changes.
 
 ## Pull Requests ##
 
