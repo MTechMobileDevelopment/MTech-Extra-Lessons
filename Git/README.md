@@ -13,7 +13,6 @@ Bulleted list of things the student can expect to learn from the lesson
 # Vocabulary #
 
 - Repositories
-- GUI
 - Commit
 - Branches
 - Pull
@@ -21,7 +20,6 @@ Bulleted list of things the student can expect to learn from the lesson
 - Fetch
 - Clone
 - Fork
-- Stash
 - Revert
 - Pull Requests
 - Merge Conflicts
@@ -171,4 +169,43 @@ Congratulations you have successfully worked together to solve a problem and in 
 
 # Quiz #
 
-10 questions to cover the unit. Easy. We want the students to be able to get 100% on the quiz with ease.
+1. Should you ever work on the same storyboard as someone else working on your repository?
+  - Yes
+  - Maybe
+  - Only if I'm crazy (correct)
+
+2. What are a few ways to avoid storyboard merge conflicts? (Select all that apply)
+  - Create Storyboard references (correct)
+  - No need to avoid them, they are easy to fix.
+  - Work together to make sure your not changing the same file. (correct)
+
+3. How do you get code from a GitHub Repository to XCode?
+- Rebase
+- Pull (correct)
+- Push
+- Fetch
+
+4. How do you put code from XCode up to GitHub?
+- Fetch
+- Push (correct)
+- Pull
+- Rebase
+
+5. How do you check if there are changes to the GitHub Repository?
+- Pull
+- Push
+- Fetch (correct)
+- Rebase
+
+6. What is the difference between Git and GitHub? (Free Response)
+
+7. What is a commit?
+- A way to save progress in your code (correct)
+- A function to push code to GitHub
+- A silly thing developers do
+- Changing the code that is on your computer
+
+8. What is a Git branch?
+- A way to save progress in your code
+- A function to push code to GitHub
+- A way to organize your code and create new features (correct)
