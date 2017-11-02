@@ -6,7 +6,9 @@ This unit is broken up into 4 lessons.
 
 ## Learing Outcomes ##
 
-Bulleted list of things the student can expect to learn from the lesson
+- Be able to implement authentication through firebase.
+- Be able to save data and files to Firebase backend.
+- Be able to organize and edit data in Firebase.
 
 
 ## Vocabulary ##
