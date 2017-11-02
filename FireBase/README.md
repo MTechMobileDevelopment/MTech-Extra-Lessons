@@ -1,18 +1,8 @@
-# FireBase
+# Firebase
 
-Lesson to teach students the basics and fundamentals of using FireBase.
-Taught over the space of two weeks. Students should build a larger project that implements Firebase as their backend.
-Another idea for an assignment is where they store JSON there and can in theory implement their own Rest API.
+Firebase is a back end as a service tool maintained by Google. They currently have iOS, Android, and Web SDKs that enable a fully-featured database and authentication service. Over the space of two weeks, students will build a photo sharing app that implements Firebase as their backend.
 
-At least 4 lessons with assignments should be included.
-
-# Lesson Outline #
-
-## Intro ##
-
-- Description
-- Overview of what will be taught
-
+This unit is broken up into 4 lessons.
 
 ## Learing Outcomes ##
 
