@@ -13,13 +13,18 @@ This unit is broken up into 4 lessons.
 
 ## Vocabulary ##
 
-List of words that they will learn throughout the lesson
+- Back End As a Service
+- Database
+- SQL/NoSQL Database
+- Network Call
+- UUID
+- Wireframe
 
 ## Additional Resources ##
 
-Any helpful articles, documentation etc...
+[Firebase iOS Documentation](https://firebase.google.com/docs/ios/setup)
 
-## Lesson ##
+## Lesson 1 ##
 
 Go in depth on the subject. Show code examples. Remember that teachers will be covering this material. Make it easy to follow along. Easy for the teacher to pick it up and go.
 
