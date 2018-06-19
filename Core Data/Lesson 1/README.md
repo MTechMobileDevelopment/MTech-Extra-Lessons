@@ -2,7 +2,7 @@ Lesson 1: Dive in -- Start from the finish line -- shortest path from a to c
 
 # Core Data
 
-# Lesson Outline #
+# Lesson 1: Start from the Finish Line #
 
 ## Intro ##
 
