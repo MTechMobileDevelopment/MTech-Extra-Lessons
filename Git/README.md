@@ -50,7 +50,7 @@ A repository is the home for your code. Changes that you make in code will be re
 
 Typically you keep the repository name to be the same as your project. So for a Journal App your repository could be Journal, or the name of your app.
 
-You get the option to make the repository public or private. With a free account you will only be able to create a public repositories. A public repository means that anyone on the internet would be able to open and look at your code. A private repository only lets you and your collaborators access the repository. Students can qualify for Github for free! Check out the Student Developer Pack in Additional Resources.
+You get the option to make the repository public or private. A public repository means that anyone on the internet would be able to open and look at your code. A private repository only lets you and your collaborators access the repository. Students can qualify for Github for free! Check out the Student Developer Pack in Additional Resources.
 
 In addition your repository can include a README. When possible you should create a README for all of your repositories. Consider this as an introduction to what your repository is all about. Take a look at how we use README's in this Repository.
 
