@@ -130,12 +130,6 @@ __Push__ is taking commits that are on your computer and _pushing_ the commits t
 
 __Fetch__ is telling XCode to go look at the repository in GitHub to see if there are any changes. If there are changes XCode will suggest that you _pull_ down the changes.
 
-## Pull Requests ##
-
-- What is a pull request
-- How to create a pull request
-- How to review said pull request.
-
 ## Merge Conflicts ##
 
 A __Merge Conflict__ is when you pull down code that someone else has changed and it interferes with code that you have changed. For example, if Bill changed line 24. Jane pulls down Bill's code and Jane had also changed line 24. This results in a Merge Conflict. It is always best to _pull_ before you push. That way any merge conclicts that you may enounter are handled locally.
@@ -148,62 +142,4 @@ This becomes a problem in interface builder. There is no good way to solve a mer
 
 Git is crucial for every developer. Committing often and having meaningful commit messages can really aide your development. Rarely will you work on a project by yourself. Being able to utilize Git to work with others will set you apart as a developer. One of the biggest headaches is working through Merge Conflicts and how to get the right code. Being able to master Git is critical for a successful developer career.
 
-# Assignment #
 
-You assignment is to work on a project with someone else to see how to create a repository. Then with that repository on both of your machines add new lines of code to see how Git functions.
-
-- Pair up with the student sitting next to you.
-- Create a new project on Student A's computer
-- Add a Repository for that project.
-- Student B then should clone the project and put it on his computer.
-- Each student open up the same file and change the same line of code.
-- On that line of code write a print statement with your favorite Dad Joke.
-- Both students commit their code
-- Student A pushes their code to the repository
-- Student B pulls Student A's code to his computer.
-- Work together to take the line of code that has the funnier Dad Joke
-
-Congratulations you have successfully worked together to solve a problem and in the meantime have become more familiar with Git. Every project you work on will add to your experience and make you a better developer.
-
-# Quiz #
-
-1. Should you ever work on the same storyboard as someone else working on your repository?
-  - Yes
-  - Maybe
-  - Only if I'm crazy (correct)
-
-2. What are a few ways to avoid storyboard merge conflicts? (Select all that apply)
-  - Create Storyboard references (correct)
-  - No need to avoid them, they are easy to fix.
-  - Work together to make sure your not changing the same file. (correct)
-
-3. How do you get new commits from a GitHub Repository to XCode?
-- Rebase
-- Pull (correct)
-- Push
-- Fetch
-
-4. How do you put new commits from XCode up to GitHub?
-- Fetch
-- Push (correct)
-- Pull
-- Rebase
-
-5. How do you check if there are changes to the GitHub Repository?
-- Pull
-- Push
-- Fetch (correct)
-- Rebase
-
-6. What is the difference between Git and GitHub? (Free Response)
-
-7. What is a commit?
-- A way to save progress in your code (correct)
-- A function to push code to GitHub
-- A silly thing developers do
-- Changing the code that is on your computer
-
-8. What is a Git branch?
-- A way to save progress in your code
-- A function to push code to GitHub
-- A way to organize your code and create new features (correct)
